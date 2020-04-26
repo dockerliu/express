@@ -22,8 +22,7 @@
 ## sequelize init 初始化项目
 ### 生成如下文件：
  ```
- 以下内容搬运自：
- https://itfun.tv/documents/271
+ 
  
 config ->数据库配置：sequelize连接数据库的配置文件
 Migrations ->数据库迁移：sequelize迁移数据库的配置文件，增改删数据库表操作
@@ -57,6 +56,9 @@ sequelize db:seed --seed 20200426094443-Article
  ### sequelize入坑操作如下：
  
   ```
+  以下内容搬运自：
+ https://itfun.tv/documents/271
+ 
   在本教程中,将通过简单地设置 Sequelize 来学习基础知识.
 
 安装
