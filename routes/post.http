@@ -1,0 +1,26 @@
+@url=http://localhost:3000/
+
+### 添加数据 POS
+POST {{url}}articles HTTP/1.1
+content-type: application/json
+
+{
+    "title": "liuda003",
+    "content": "武汉大武汉003"
+}
+
+###查询
+GET {{url}}articles HTTP/1.1
+
+
+###根据ID查询
+GET {{url}}articles/2 HTTP/1.1
+
+###根据ID修改
+PUT {{url}}articles/2 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "docker liu2",
+    "content": "docker liu222"
+}
